@@ -69,7 +69,7 @@ class Follow(Base):
    # def to_dict(self):
         # return {}
 
-## Draw from SQLAlchemy base
+## Draw from SQLAlchemy base 
 try:
     result = render_er(Base, 'diagram.png')
     print("Success! Check the diagram.png file")
